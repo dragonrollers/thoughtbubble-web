@@ -8,11 +8,16 @@ body {
     animation: gradient-background 60s infinite;
 }
 
+a {
+    color: #DEDEDE; /* TODO Remove with custom Bootstrap */
+}
+
 .navbar
 {
     z-index:99999;
     position: fixed;
     width: 100%;
+    border: none;
 }
 
 #splash-page
@@ -23,6 +28,7 @@ body {
 .fill-screen-section
 {
     min-height: 100vh;
+    padding-top: 50px;
 }
 
 #splash-page .jumbotron {
