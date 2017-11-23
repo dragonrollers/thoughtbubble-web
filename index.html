@@ -12,16 +12,16 @@
 
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 
         <!--TODO favicon-->
         <link rel="stylesheet" href="css/main.css">
         
     </head>
     
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default theme-font" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -34,6 +34,7 @@
             </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right target-nav">
+                <li><a href="#mission">MISSION</a></li>
                 <li><a href="#product">PRODUCT</a></li>
                 <li><a href="#process">PROCESS</a></li>
                 <li><a href="#team">TEAM</a></li>
@@ -47,84 +48,101 @@
             <div id="splash-page">
                 <div class="jumbotron">
                     <div>
-                        <h1>THOUGHTBUBBLE</h1>
-                        <h3 id="headline">Get help talking about the tough questions. Expand your bubble.</h3>
+                        <h1 class="theme-font">THOUGHTBUBBLE</h1>
+                        <h2 id="headline" class="theme-font">Get help talking about the tough questions. Expand your bubble.</h2>
                     </div>
                 </div>
             </div>
         </div>
         
+        <div class="container-fluid scroll-top-padding fill-screen-section theme-color" id="mission">
+            <h2 class="theme-font text-center">LEARN ABOUT OUR MISSION</h2>
+            <div class="text">
+                <h3>Our mission is to create educational spaces for fostering meaningful conversations and developing empathy.</h3>
+                <h3>ThoughtBubble allows you to be forthcoming about identities and experiences you’re willing to share, guide your friends in framing the tough questions, and facilitate a larger conversation across multiple identities.</h3>
+            </div>
+        </div>
+        
         <div class="container-fluid scroll-top-padding fill-screen-section text-center" id="product">
-            <h2>EXPERIENCE OUR PRODUCT</h2>
+            <h2 class="theme-font">EXPERIENCE OUR PRODUCT</h2>
             <iframe src="https://marvelapp.com/442j0ff?emb=1" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>
             <p>View instructions in our <a href="files/6-README.pdf">README</a>.</p>
         </div>
         
-        <div class="container-fluid scroll-top-padding fill-screen-section text-center" id="process">
-            <h2>SEE OUR PROCESS</h2>
+        <div class="container-fluid scroll-top-padding fill-screen-section text-center theme-color" id="process">
+            <h2 class="theme-font">SEE OUR PROCESS</h2>
             <!--TODO Fill in content-->
             <div class="row">
                 <div class="col-sm-4 col-md-4">
-                    <h3>Needfinding</h3>
-                    <p>
-                        <a href="files/1-Presentation.pdf">Presentation</a>
-                    </p>
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/1.jpg">
+                    </a>
+                    <h3 class="theme-font">NEEDFINDING</h3>
+                    <p><a href="files/1-Presentation.pdf">Presentation</a> <a href="files/1-Presentation.pptx">(.pptx)</a></p>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <h3>POV and Experience Prototypes</h3>
-                    <p>
-                        <a href="files/2-Presentation.pdf">Presentation</a> | 
-                        <a href="files/2-Report.pdf">Report</a>
-                    </p>
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/2.jpg">
+                    </a>
+                    <h3 class="theme-font">POV &amp; EXPERIENCE PROTOTYPE</h3>
+                    <p><a href="files/2-Presentation.pdf">Presentation</a> <a href="files/2-Presentation.pptx">(.pptx)</a></p>
+                    <p><a href="files/2-Report.pdf">Report</a></p>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <h3>Concept Video</h3>
-                    <p>
-                        <a href="files/4-Presentation.pdf">Presentation</a> | 
-                        <a href="https://www.youtube.com/watch?v=n3b3R5LFtZ4">Video</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <h3>Low Fi Prototype and Testing</h3>
-                    <p>
-                        <a href="files/5-Presentation.pdf">Presentation</a> | 
-                        <a href="files/5-Report.pdf">Report</a>
-                    </p>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <h3>Medium Fi Prototype</h3>
-                    <p>
-                        <a href="files/6-Presentation.pdf">Presentation</a>
-                    </p>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <h3>Heuristic Evaluation</h3>
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/4.jpg">
+                    </a>
+                    <h3 class="theme-font">CONCEPT VIDEO</h3>
+                    <p><a href="files/4-Presentation.pdf">Presentation</a> <a href="files/4-Presentation.pptx">(.pptx)</a></p>
+                    <p><a href="https://www.youtube.com/watch?v=n3b3R5LFtZ4">Video</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 col-md-4">
-                    <h3>Hi Fi Prototype</h3>
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/5.jpg">
+                    </a>
+                    <h3 class="theme-font">LOW-FI PROTOTYPE &amp; TESTING</h3>
+                    <p><a href="files/5-Presentation.pdf">Presentation</a> <a href="files/5-Presentation.pptx">(.pptx)</a></p>
+                    <p><a href="files/5-Report.pdf">Report</a></p>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                    <h3>Poster and Pitch</h3>
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/6.jpg">
+                    </a>
+                    <h3 class="theme-font">MEDIUM-FI PROTOTYPE</h3>
+                    <p><a href="files/6-Presentation.pdf">Presentation</a> <a href="files/6-Presentation.pptx">(.pptx)</a></p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#process" class="thumbnail">
+                        <img src="images/process/8.jpg">
+                    </a>
+                    <h3 class="theme-font">HEURISTIC EVALUATION</h3>
+                    <p><a href="files/8-Report.pdf">Report</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <h3 class="theme-font">HI-FI PROTOTYPE</h3>
+                    <p><a href="files/10-Presentation.pdf">Presentation</a> <a href="files/10-Presentation.pptx">(.pptx)</a></p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <h3 class="theme-font">POSTER &amp; PITCH</h3>
+                    <p><a href="#process">Poster</a> <a href="#process">(.pptx)</a></p>
                 </div>
             </div>
         </div>
         
         <div class="container-fluid scroll-top-padding fill-screen-section text-center" id="team">
-            <h2>MEET OUR TEAM</h2>
+            <h2 class="theme-font">MEET OUR TEAM</h2>
             <div class="row">
                 <div class="col-sm-3 col-md-3">
-                    <img src="images/team/grace-hong.jpg" class="image-team">
-                    <h3>GRACE HONG</h3>
-                    <p>Developer</p>
+                    <a href="#team" class="thumbnail">
+                        <img src="images/team/grace-hong.jpg">
+                    </a>
+                    <h3 class="theme-font">GRACE HONG</h3>
+                    <p>Software Engineering</p>
                     <div class="row-icons">
-                        <!--TODO Link to personal webpage or remove-->
-                        <a href="#" target="_blank">
-                            <img src="images/icons/profile.png" class="image-icon">
-                        </a>
                         <a href="https://github.com/gracehong" target="_blank">
                             <img src="images/icons/github.svg" class="image-icon">
                         </a>
@@ -134,14 +152,12 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
-                    <img src="images/team/jenny-kim.jpg" class="image-team">
-                    <h3>JENNY KIM</h3>
-                    <p>Developer</p>
+                    <a href="#team" class="thumbnail">
+                        <img src="images/team/jenny-kim.jpg">
+                    </a>
+                    <h3 class="theme-font">JENNY KIM</h3>
+                    <p>Software Engineering</p>
                     <div class="row-icons">
-                        <!--TODO Link to personal webpage or remove-->
-                        <a href="#" target="_blank">
-                            <img src="images/icons/profile.png" class="image-icon">
-                        </a>
                         <a href="https://github.com/jennykim1016" target="_blank">
                             <img src="images/icons/github.svg" class="image-icon">
                         </a>
@@ -151,14 +167,12 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
-                    <img src="images/team/bonnie-nortz.jpg" class="image-team">
-                    <h3>BONNIE NORTZ</h3>
-                    <p>Developer</p>
+                    <a href="#team" class="thumbnail">
+                        <img src="images/team/bonnie-nortz.jpg">
+                    </a>
+                    <h3 class="theme-font">BONNIE NORTZ</h3>
+                    <p>Software Engineering</p>
                     <div class="row-icons">
-                        <!--TODO Link to personal webpage or remove-->
-                        <a href="#" target="_blank">
-                            <img src="images/icons/profile.png" class="image-icon">
-                        </a>
                         <a href="https://github.com/bnortz" target="_blank">
                             <img src="images/icons/github.svg" class="image-icon">
                         </a>
@@ -168,13 +182,12 @@
                     </div>
                 </div>
                 <div class="col-sm-3 col-md-3">
-                    <img src="images/team/po-tsui.jpg" class="image-team">
-                    <h3>PO TSUI</h3>
-                    <p>Developer</p>
+                    <a href="http://tsuipo.com" class="thumbnail">
+                        <img src="images/team/po-tsui.jpg">
+                    </a>
+                    <h3 class="theme-font">PO TSUI</h3>
+                    <p>Software Engineering</p>
                     <div class="row-icons">
-                        <a href="http://tsuipo.com" target="_blank">
-                            <img src="images/icons/profile.png" class="image-icon">
-                        </a>
                         <a href="https://github.com/potsui" target="_blank">
                             <img src="images/icons/github.svg" class="image-icon">
                         </a>
@@ -185,7 +198,7 @@
                 </div>
             </div>
         </div>
-        <p class="text-center">Webpage by Po Tsui</p>
+        <p class="text-center footer theme-color">&copy; 2017 Po Tsui</p>
         <br><br>
     </body>
 </html>
