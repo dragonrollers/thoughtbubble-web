@@ -10,7 +10,7 @@ Website for our product ThoughtBubble
 ## Development
 I develop locally then transfer via SCP.
 Setting up:
-* You can add this alias to your shell setup (so for me, `vim ~/.bash_profile`) for convenience. Type this into the setup file (replace `<>` with your own setup): `alias transfercs147='scp -r <source path>/thoughtbubble-web/{index.html,css,images,files} <sunet id>@myth.stanford.edu:/afs/ir/class/cs147/WWW/projects/education/thoughtbubble`
+* You can add this alias to your shell setup (so for me, `vim ~/.bash_profile`) for convenience. Type this into the setup file (replace `<>` with your own setup): `alias transfercs147='scp -r <source path>/thoughtbubble-web/{index.html,css,images,files,bootstrap} <sunet id>@myth.stanford.edu:/afs/ir/class/cs147/WWW/projects/education/thoughtbubble`
 ** *Note: This will need to be updated if any new top-level files/directories are added.*
 * After you've saved, you can type `source ~/.bash_profile` once to ensure your shell's been updated (or just open up a new window).
 
