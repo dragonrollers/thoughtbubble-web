@@ -77,6 +77,11 @@ a.thumbnail {
 #team .thumbnail {
     border: solid #fff 3px;
     padding: 3%;
+    background: none;
+}
+
+#team .thumbnail:hover {
+    background: #fff;
 }
 
 /* ICONS */
