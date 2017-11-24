@@ -81,6 +81,11 @@ a.thumbnail {
 
 /* ICONS */
 
+#logo {
+    width: 40%;
+    height: auto;
+}
+
 .row-icons {
     display: flex;
     justify-content: center;
