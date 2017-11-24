@@ -141,7 +141,6 @@ a.thumbnail {
 @-moz-keyframes icon-animation {
     0% {opacity: .8;}
     100% {opacity: 1;}
-    }
 }
 @keyframes icon-animation { 
     0% {opacity: .8;}
