@@ -19,6 +19,7 @@ h2 {font-size: 2.5em;}
 .theme-color a {color:#777;opacity:.7;}
 .theme-color a:hover {opacity:1;}
 .text-center {text-align: center;}
+.highlight-color {color:#00cca3;}
 .footer {font-size: .8em;}
 .text {padding-left: 10%;padding-right:10%;}
 
@@ -116,6 +117,11 @@ a.thumbnail {
     padding-top: 10px;
     padding-bottom: 30px;
     background: rgba(0,77,77,.9);
+}
+
+/* OTHER */
+.glyphicon-globe {
+    font-size: 50px;
 }
 
 /* ANIMATIONS */
