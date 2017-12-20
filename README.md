@@ -1,5 +1,5 @@
 # thoughtbubble-web
-Website for our product ThoughtBubble
+Website for our product [ThoughtBubble](https://github.com/dragonrollers/thoughtbubble-app/)
 
 ## Team Members
 * Grace Hong
